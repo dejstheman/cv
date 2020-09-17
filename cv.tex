@@ -2,11 +2,11 @@
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 \usepackage[utf8]{inputenc}
-\usepackage[scale=0.85]{geometry}
+\usepackage[scale=0.9]{geometry}
 \firstname{\textsc{Adedeji}}
 \familyname{\textsc{Adepetun}}
 \title{}
-%\address{3, New Village Avenue}{E14 0NH}{London}
+\address{London}{}{}
 \phone[mobile]{+447903619212}
 \email{dejiadepetun@gmail.com}              
 %\social[github]{deji-adepetun}
@@ -26,24 +26,35 @@ I have experience in analysing complex systems to identify critical business pro
 
 \section{\textsc{Skills}}
 \cvitem{}{Object oriented and Functional programming, Data structures and algorithms,  Analysis of legacy systems, Test and Behaviour driven development, Scrum/Kanban.}
-\cventry{}{Languages and Frameworks}{Scala, Java, Python, Javascript, SQL, Spring, Angular}{}{}{}
-\cventry{}{Build tools}{Gradle, Maven, Ant, Jenkins, Git}{}{}{}
-\cventry{}{Database}{Sybase, IBM DB2}{}{}{}
+\cventry{}{Languages and Frameworks}{Scala, Java, Kotlin, Typescript, Python, Spring, Angular, Akka, REST}{}{}{}
+\cventry{}{Build tools}{Gradle, Maven, Ant, JFrog Artifactory}{}{}{}
+\cventry{}{DevOps tools}{Jenkins, Bitbucket, Jira, Azure Pipelines}{}{}{}
+\cventry{}{Database}{Sybase, IBM DB2, MongoDb, Neo4J}{}{}{}
 
 \section{\textsc{Work Experience}}
-\cventry{April 2019 -- Present}{Software Engineer}{Morgan Stanley}{London}{United Kingdom}
-{Securities Lending Technology
+\cventry{April 2019 -- Present}{Software Engineer}{Morgan Stanley}{Securitied Lending Technology}{}{}
+\cvitem{}{Contributed to the consolidation of the securities lending trading platform and migration from vendor products}
+\cvitem{}{
 \begin{itemize}
-	\item Contributed to the consolidation of our trading platform with the decommission of legacy flows.
-	\item Onboarded a new lender venue unto our internal trade engine.
-	\item Optimising the trading strategies used by the trade engine to improve business margins.
-	\item Improved the stability and accuracy of the trading platform, improving the quality of bids sent out to lenders.
-	\item Improved the exclusive portfolio maintenance.
-	\item Performed a major Sybase upgrade while ensuring no downtime of services.
-\end{itemize}}
-
-\cventry{July -- September 2015}{Mechanical Engineering Intern}{Bristow Group}{Lagos}{Nigeria}
-{Worked with the Bristow Aviation Technical Services (BATS) branch of the company.}
+	\item Decommission of legacy processes - using the Strangler pattern.
+	\item Replacing the existing vendor trade execution platform with an in-house trade execution platform, generating a cost savings of \textasciitilde\$3m a year
+\end{itemize}
+}
+\cvitem{}{Contributed to the implementation of regulatory reporting of all security lending transactions}
+\cvitem{}{
+\begin{itemize}
+	\item Analysis of legacy processes to propagate necessary regulatory reports from the point of trade execution to trade settlement.
+	\item All security lending transactions reported with a success rate of \textasciitilde 99.2\% - ranking 1st in the UK.
+	\item Building resilient self-healing systems using \textit{Spring Retry and Recovery}.
+\end{itemize}
+}
+\cvitem{}{Optimising Security Lending Trading Strategies}
+\cvitem{}{
+\begin{itemize}
+	\item Improving the coverage of refinanced deals by automating the discovery of expensive deals within the firm.
+	\item Redseigning the collateral matching process when processing security availability to improve our short coverage.
+\end{itemize}
+}
 
 \section{\textsc{Education}}
 \cventry{2016 -- 2018}{MSc. Advanced Computer Science}{Distinction}{University of Manchester}{}{}{}
@@ -54,25 +65,17 @@ I have experience in analysing complex systems to identify critical business pro
 
 \clearpage
 \section{\textsc{Projects}}
-\cventry{}{Todo List API}{}{}{}{
+\cventry{}{Chess Simulation Engine}{}{}{}{
 \begin{itemize}
-	\item A todo list API to perform CRUD operations
-	\item Languages used: Java, Scala, Spring boot, Swagger
+	\item A chess simulation engine.
+	\item Languages and Frameworks used: Scala, Akka.
 \end{itemize}}
-\cventry{}{"What's that pet?" application}{}{}{}{
+\cventry{}{Fantasy Music League}{}{}{}{
 \begin{itemize}
-	\item Predicts the type of pet from a picture using a convolutional neural network.
-	\item Languages used: Python, numpy, TensorFlow, Javascript, HTML, CSS.
-\end{itemize}}
-\cventry{}{Journal management web application}{}{}{}{
-\begin{itemize}
-	\item Web application that manages a library of academic journals.
-	\item Used a agile and test-driven development approach.
-	\item Languages and frameworks used: Python, Flask, HTML, CSS, Javascript, d3.js.
+	\item An application that attempts to gamify music recommendations
+	\item Languages and Frameworks used: Kotlin, Spring, Neo4J
 \end{itemize}}
 
 
 \clearpage
 \end{document}
-
-}

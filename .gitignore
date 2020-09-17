@@ -1,1 +1,9 @@
 .texpadtmp/*
+.idea/CV.iml
+.idea/azureSettings.xml
+.idea/checkstyle-idea.xml
+.idea/codeStyles
+.idea/dbnavigator.xml
+.idea/inspectionProfiles/
+.idea/sonarlint/
+.idea/vcs.xml
