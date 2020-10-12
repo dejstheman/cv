@@ -7,3 +7,7 @@
 .idea/inspectionProfiles/
 .idea/sonarlint/
 .idea/vcs.xml
+*.aux
+*.log
+*.out
+*.synctex.gz
